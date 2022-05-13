@@ -1,7 +1,7 @@
 {
   "name": "strolch-wc-paging",
   "description": "Strolch WebComponent Paging",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "authors": [
     "Robert von Burg"
   ],
@@ -20,9 +20,9 @@
   "ignore": [],
   "dependencies": {
 
-    "strolch-wc-styles": "strolch-li/strolch-wc-styles#^0.4.0",
+    "strolch-wc-styles": "strolch-li/strolch-wc-styles#^0.4.4",
 
-    "polymer": "Polymer/polymer#^1.11.3",
+    "polymer": "Polymer/polymer#^1.12.0",
 
     "iron-ajax": "PolymerElements/iron-ajax#^1.4.4",
     "iron-icons": "PolymerElements/iron-icons#^1.2.1",
