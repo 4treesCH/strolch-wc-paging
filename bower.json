@@ -1,7 +1,7 @@
 {
   "name": "strolch-wc-paging",
   "description": "Strolch WebComponent Paging",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "authors": [
     "Robert von Burg"
   ],
@@ -20,7 +20,7 @@
   "ignore": [],
   "dependencies": {
 
-    "strolch-wc-styles": "strolch-li/strolch-wc-styles#^0.4.4",
+    "strolch-wc-styles": "strolch-li/strolch-wc-styles#^0.4.7",
 
     "polymer": "Polymer/polymer#^1.12.0",
 
