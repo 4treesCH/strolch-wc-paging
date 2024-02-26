@@ -1,7 +1,7 @@
 {
   "name": "strolch-wc-paging",
   "description": "Strolch WebComponent Paging",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "authors": [
     "Robert von Burg"
   ],

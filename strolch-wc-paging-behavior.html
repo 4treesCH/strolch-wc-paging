@@ -16,6 +16,10 @@
                     previousOffset: 0,
                     lastOffset: 0
                 }
+            },
+            scrollTarget: {
+                type: Object,
+                value: null
             }
         },
 
@@ -75,6 +79,18 @@
             this.ajax.params.limit = this.dataObj.limit;
             this.ajax.params.offset = this.dataObj.offset;
             this.ajax.generateRequest();
+            this.ajax.addEventListener('response', this);
+        },
+        handleEvent: function (event) {
+            if (event.type !== "response")
+                return;
+
+            this.ajax.removeEventListener('response', this);
+            if (this.scrollTarget != null) {
+                this.scrollTarget.scrollIntoView({behavior: "smooth", block: "start", inline: "start"});
+            } else {
+                window.scrollTo({top: 0, left: 0, behavior: "smooth"});
+            }
         }
     };
 </script>
